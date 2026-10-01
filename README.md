@@ -24,11 +24,13 @@
 
 | 入口 | 内容 |
 |------|------|
-| Wiki 首页 | 课程简介、导航与语料来源 |
-| 课程大纲 Wiki 首页 | 三单元二十课课次卡片，可搜索、可点开讲稿（纯静态，无构建、无依赖） |
-| 第 1 课讲稿 | 牛头与飞鸟（A, A）：口述 / 板书投屏 / 英文词族词汇卡 / 教师参考 四标签页 |
+| [Wiki 首页](https://github.com/acaGPT/lettersjourney/wiki) | 课程简介、导航与语料来源 |
+| [课程大纲](https://github.com/acaGPT/lettersjourney/wiki/课程大纲) | 三单元二十课大纲：课程定位、课时结构、逐课主题与高龄段拓展任务 |
+| [第 1 课讲稿](https://github.com/acaGPT/lettersjourney/wiki/第 1 课讲稿) | 牛头与飞鸟（A, A）：口述讲稿、板书要点、英文词族与低龄简单词 |
+| [第 1 课交互站点](https://github.com/acaGPT/lettersjourney/wiki/lesson-01.html) | 同一课的可操作版本：明暗主题、标签页切换、词族分层筛选（站点文件，非 wiki 页） |
 
-> 站点为纯静态文件：在 Wiki 页打开 `index.html` 即可浏览；从首页「第一单元 · 动物与自然」的第 1 课卡片「打开讲稿」进入第 1 课。
+> 课程内容以 **Wiki 页面** 形式呈现（可渲染阅读）；`index.html`、`lesson-01.html` 为纯静态**站点文件**，
+> 站点首页即课程大纲站点的课次卡片，第 1 课卡片「打开讲稿」进入交互讲稿页。
 > 站点配色与版式：`assets/css/wiki.css`、`assets/js/wiki.js`，随页面一同托管于 Wiki。
 
 ---
@@ -55,4 +57,4 @@
 
 ## 版本
 
-v1.4.0
+v1.5.0
