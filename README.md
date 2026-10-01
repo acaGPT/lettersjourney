@@ -1,9 +1,24 @@
+🔗 **Wiki 链接**：[课程大纲 Wiki 首页](https://github.com/Work4Buddy/lettersjourney/blob/main/index.html) · [第 1 课讲稿](https://github.com/Work4Buddy/lettersjourney/blob/main/lesson-01.html) · [仓库 Work4Buddy/lettersjourney](https://github.com/Work4Buddy/lettersjourney)
+
 # 字母的旅程：从尼罗河到英吉利
 
 > An interactive teaching wiki for an etymological English alphabet course grounded in Homer's Greek.
 > 基于荷马史诗希腊文底本与英文注释本的英语字母词源启蒙课程（三单元二十课）。
 
 **English title.** *The Journey of Letters: From the Nile to England — An Etymological Alphabet Course Grounded in Homer's Greek*
+
+---
+
+## Wiki 入口
+
+| 入口 | 链接 |
+|------|------|
+| 课程大纲 Wiki（站点首页） | [lettersjourney/index.html](https://github.com/Work4Buddy/lettersjourney/blob/main/index.html) |
+| 第 1 课讲稿（牛头与飞鸟 A, A） | [lesson-01.html](https://github.com/Work4Buddy/lettersjourney/blob/main/lesson-01.html) |
+| 仓库主页（PRIVATE · 默认分支 main） | [Work4Buddy/lettersjourney](https://github.com/Work4Buddy/lettersjourney) |
+
+> 在仓库主页点开 `index.html` 即可浏览课程大纲 Wiki；从首页「第一单元 · 动物与自然」的第 1 课卡片「打开讲稿」进入第 1 课。
+> 站点为纯静态文件（无构建、无依赖），离线状态下双击本地 `index.html` 同样可用。
 
 ---
 
@@ -76,4 +91,4 @@
 
 ## 版本
 
-v1.0.0
+v1.1.0
