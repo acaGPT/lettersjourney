@@ -18,20 +18,16 @@
 
 ## 内容位置
 
-本仓库 **code 页只保留本 README 作为索引**；课程全部内容（ syllabus、逐课讲稿、词表、站点页面与样式脚本）托管于本仓库的 **Wiki 页**：
+本仓库 **code 页只保留本 README 作为索引**；课程全部内容（ syllabus、逐课讲稿与词表）托管于本仓库的 **Wiki 页**，
+全部以可渲染的 Markdown 页面呈现，不含站点文件：
 
 **<https://github.com/acaGPT/lettersjourney/wiki>**
 
 | 入口 | 内容 |
 |------|------|
-| [Wiki 首页](https://github.com/acaGPT/lettersjourney/wiki) | 课程简介、导航与语料来源 |
-| [课程大纲](https://github.com/acaGPT/lettersjourney/wiki/课程大纲) | 三单元二十课大纲：课程定位、课时结构、逐课主题与高龄段拓展任务 |
-| [第 1 课讲稿](https://github.com/acaGPT/lettersjourney/wiki/第 1 课讲稿) | 牛头与飞鸟（A, A）：口述讲稿、板书要点、英文词族与低龄简单词 |
-| [第 1 课交互站点](https://github.com/acaGPT/lettersjourney/wiki/lesson-01.html) | 同一课的可操作版本：明暗主题、标签页切换、词族分层筛选（站点文件，非 wiki 页） |
-
-> 课程内容以 **Wiki 页面** 形式呈现（可渲染阅读）；`index.html`、`lesson-01.html` 为纯静态**站点文件**，
-> 站点首页即课程大纲站点的课次卡片，第 1 课卡片「打开讲稿」进入交互讲稿页。
-> 站点配色与版式：`assets/css/wiki.css`、`assets/js/wiki.js`，随页面一同托管于 Wiki。
+| [Wiki 首页](https://github.com/acaGPT/lettersjourney/wiki) | 课程简介、页面导航、课程主线与语料来源 |
+| [课程大纲](https://github.com/acaGPT/lettersjourney/wiki/Course-Syllabus) | 三单元二十课大纲：课程定位、课时结构、逐课主题与高龄段拓展任务（含附录 A／B 词源附表） |
+| [第 1 课讲稿：牛头与飞鸟](https://github.com/acaGPT/lettersjourney/wiki/Lesson-01.-Ox-and-Bird) | 第一单元第 1 课（字母 A, A）：口述讲稿、板书要点、六个英文词族与低龄简单词 |
 
 ---
 
@@ -57,4 +53,4 @@
 
 ## 版本
 
-v1.5.0
+v1.6.0
