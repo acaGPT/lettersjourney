@@ -2,6 +2,14 @@
 
 # 字母的旅程：从尼罗河到英吉利
 
+> ### 🔒 版权声明（All Rights Reserved）
+>
+> Copyright (c) 2026 Binny. **保留所有权利。**
+> 本仓库及课程 Wiki（大纲、讲稿、词表、图示、页面代码）整体依「保留所有权利」原则处理：
+> 未获书面许可，不得以复制、改写、汇编、翻译、上传网络、制作衍生讲义、商业性使用等方式利用。
+> 课堂内为教学目的之讲授、投影、复印，属许可范围内之使用；公开出版、网络公开发布、商业培训或二次改编须先行取得书面同意。
+> 详见仓库根目录 [`LICENSE`](LICENSE)；联系邮箱 4she2run2024@gmail.com。
+
 > An interactive teaching wiki for an etymological English alphabet course grounded in Homer's Greek.
 > 基于荷马史诗希腊文底本与英文注释本的英语字母词源启蒙课程（三单元二十课）。
 
@@ -15,7 +23,7 @@
 |------|------|
 | 课程大纲 Wiki（站点首页） | [lettersjourney/index.html](https://github.com/acaGPT/lettersjourney/blob/main/index.html) |
 | 第 1 课讲稿（牛头与飞鸟 A, A） | [lesson-01.html](https://github.com/acaGPT/lettersjourney/blob/main/lesson-01.html) |
-| 仓库主页（PRIVATE · 默认分支 main） | [acaGPT/lettersjourney](https://github.com/acaGPT/lettersjourney) |
+| 仓库主页（PUBLIC · 默认分支 main） | [acaGPT/lettersjourney](https://github.com/acaGPT/lettersjourney) |
 
 > 在仓库主页点开 `index.html` 即可浏览课程大纲 Wiki；从首页「第一单元 · 动物与自然」的第 1 课卡片「打开讲稿」进入第 1 课。
 > 站点为纯静态文件（无构建、无依赖），离线状态下双击本地 `index.html` 同样可用。
@@ -89,6 +97,18 @@
 
 ---
 
+## 版权协议
+
+**All Rights Reserved（保留所有权利）**——不采用任何开源 / 开放内容许可（非 CC、非 GPL），
+以最严格方式保留全部权利。
+
+- 仓库根目录 [`LICENSE`](LICENSE) 为版权声明正本。
+- 仓库可见性：PUBLIC（仅表示源码可读，不表示任何使用授权）。
+- 课程 Wiki 站点首页（`index.html`）页脚以同一声明标注；讲稿页为课堂投屏件，不置页脚，版权只记于此处与 `LICENSE`。
+- 课堂内讲授、投影、复印属许可范围内之使用；二次开发、改编、商用、公开发布须书面授权。
+
+---
+
 ## 版本
 
-v1.1.1
+v1.2.0

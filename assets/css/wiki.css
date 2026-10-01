@@ -367,6 +367,19 @@ tbody tr:hover { background: var(--accent-soft); }
 .teacher-box > *:first-child { margin-top: 0; }
 .teacher-box > *:last-child { margin-bottom: 0; }
 
+/* ---------- 页脚版权 ---------- */
+.site-foot {
+  border-top: 1px solid var(--border);
+  margin-top: 8px;
+  padding: 20px 18px 32px;
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1.75;
+}
+.site-foot p { margin: 0 0 6px; }
+.site-foot strong { color: var(--text); }
+.site-foot .foot-meta { font-size: 12px; opacity: .8; }
+
 /* ---------- 响应式 ---------- */
 @media (max-width: 860px) {
   .layout { grid-template-columns: 1fr; padding: 16px 14px 60px; gap: 16px; }
