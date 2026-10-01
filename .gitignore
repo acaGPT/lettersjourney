@@ -1,0 +1,13 @@
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 依赖与缓存
+node_modules/
+__pycache__/
+*.log
+
+# 本地工作数据（不进版本库）
+.workbuddy/

@@ -1,0 +1,79 @@
+# 字母的旅程：从尼罗河到英吉利
+
+> An interactive teaching wiki for an etymological English alphabet course grounded in Homer's Greek.
+> 基于荷马史诗希腊文底本与英文注释本的英语字母词源启蒙课程（三单元二十课）。
+
+**English title.** *The Journey of Letters: From the Nile to England — An Etymological Alphabet Course Grounded in Homer's Greek*
+
+---
+
+## 项目简介
+
+这门课以中文为母语的混龄小组为对象（高龄段负责考证与表达，低龄段负责形象记忆与绘画），
+以「画一个东西、读它的名字、再取其首音」为线索，带学生走完
+**埃及象形 → 腓尼基 → 希腊 → 拉丁 → 英语** 的字母演化链，并把落脚点放回**英文单词本身**。
+
+荷马史诗在本课程中承担「希腊字母阶段」的原文语料：学生亲见 α↔A、β↔B 的形音对应，
+并借英文注释本把希腊词引入英语词汇，而非学习古希腊语。
+
+**核心教学原则（务必遵守）**
+- 词汇表只收**本字母词**（以该字母开头或含该字母词根）；母题形象词若不以本字母开头，移出词汇表，仅作画图母题与词源彩蛋。
+- **图画原型 ≠ 含义**：牛头、飞鸟、眼睛等是字母当初提示读音的「意象 / 图案」，字母本身只表音，不表示那一物。
+- 荷马原文语料只用于展示「该字母的字母阶段形音」；原文词若恰好同主题（如「鹰」「牛」），
+  必须显式标注为「仅意象呼应、非词形关联、非同源」，不作遗传关系讲解。
+- 每个词都要讲清「与字母来源 / 意象的关联」，统一模式讲解。
+
+---
+
+## 目录结构
+
+```
+.
+├── index.html                  # 课程大纲 Wiki 首页（三单元二十课，课次卡片可点开）
+├── lesson-01.html              # 第 1 课讲稿（牛头与飞鸟 A, A）
+├── assets/
+│   ├── css/wiki.css            # 站点样式（明暗双主题）
+│   └── js/wiki.js              # 交互脚本（主题 / 搜索 / 标签页 / 演化链 / 词族筛选）
+├── 字母词源英语教学大纲.md        # 大纲 Markdown 源档（可编辑设计稿）
+└── 第一课讲稿.md                 # 第 1 课讲稿 Markdown 源档（可编辑设计稿）
+```
+
+---
+
+## 使用方法
+
+**作为站点打开**
+直接用浏览器打开 `index.html` 即可（纯静态，无构建、无依赖、无需服务器）。
+从首页「第一单元 · 动物与自然」的 **第 1 课卡片 → 打开讲稿**，即进入 `lesson-01.html`。
+
+**作为编辑稿修改**
+- 大纲与讲稿的**事实内容**以两份 Markdown 源档为准（`字母词源英语教学大纲.md`、`第一课讲稿.md`）；
+- 站点页面为可编辑的 HTML，改完同步更新对应 Markdown，保持两处一致；
+- 新增课时：在 `index.html` 对应单元的 `.lesson-grid` 内增加一张 `.lesson-card`，
+  把 `data-search` 填上课次 / 主题 / 字母关键词，再把「待产出」换成指向新页面的链接。
+
+**交互功能**
+| 功能 | 位置 | 说明 |
+|------|------|------|
+| 明暗主题切换 | 页头「主题」 | 偏好记入 localStorage，默认跟随系统 |
+| 课次搜索 | 页头「搜索」 | 按课次 / 主题 / 字母 / 关键词过滤课次卡片 |
+| 字母演化链 | 首页「教学主线」 | 点击任一阶段，下方显示该阶段在课程中的角色 |
+| 讲稿标签页 | 第 1 课页 | 教师口述 / 板书投屏 / 英文词族词汇卡 / 教师参考 |
+| 词族分层筛选 | 词汇卡页 | 全部 / 高龄派生词 / 低龄简单词 |
+
+---
+
+## 语料来源（课件写作依据）
+
+- 希腊文底本：Homer, *Homeri Opera* (ed. D. B. Monro & T. W. Allen), Oxford Classical Texts, 1902–1912；
+  Perseus Digital Library（CC BY-SA）：Iliad `urn:cts:greekLit:tlg0012.tlg001`、Odyssey `urn:cts:greekLit:tlg0012.tlg002`。
+- 英译对照：Loeb Classical Library *Iliad* (L170N/L171N) & *Odyssey* (L104/L105)，A. T. Murray 译，rev. Wyatt / Dimock。
+- 英文注释本：Richmond Lattimore (1951/1965)；Robert Fagles, intro. & notes Bernard Knox (1990/1996)；Emily Wilson (2017/2023)；Peter Green (2015/2018)。
+- 专业注释：G. S. Kirk 等《The Iliad: A Commentary》6 卷 (1985–1993)；A. Heubeck 等《A Commentary on Homer's Odyssey》3 卷 (1988–1992)。
+- 词源核验：OED / Etymonline。
+
+---
+
+## 版本
+
+v1.0.0
