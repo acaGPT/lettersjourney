@@ -29,6 +29,17 @@
 | [课程大纲](https://github.com/acaGPT/lettersjourney/wiki/Course-Syllabus) | 三单元二十课大纲：课程定位、课时结构、逐课主题与高龄段拓展任务（含附录 A／B 词源附表） |
 | [第 1 课讲稿：牛头与飞鸟](https://github.com/acaGPT/lettersjourney/wiki/Lesson-01.-Ox-and-Bird) | 第一单元第 1 课（字母 A, A）：口述讲稿、板书要点、六个英文词族与低龄简单词 |
 
+**交互站点**（GitHub Pages，脚本渲染，与 Wiki 同源）：
+
+| 入口 | 内容 |
+|------|------|
+| [课程大纲站点首页](https://acagpt.github.io/lettersjourney/) | 三单元二十课卡片墙：课次搜索过滤、明暗主题切换 |
+| [第 1 课交互讲稿](https://acagpt.github.io/lettersjourney/lesson-01.html) | 四标签页切换、词族分层筛选、演化链逐级展开、侧栏跟随高亮 |
+
+> 承载说明：GitHub Wiki 平台不执行页面脚本（内联 `<script>`、外链脚本、`<iframe>`、事件属性均被转义或剥离），
+> 故需要脚本的完整交互由 `gh-pages` 分支的 GitHub Pages 承载；Wiki 页内则以 `<details>`／`<summary>` 折叠组件
+> 实现等价的**逐步展开阅读**（大纲三单元与四附录可折叠，讲稿六环节、四板块与六张词卡可点开）。
+
 ---
 
 ## 课程主线
@@ -53,4 +64,4 @@
 
 ## 版本
 
-v1.6.0
+v1.7.0
